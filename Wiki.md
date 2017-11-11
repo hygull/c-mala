@@ -296,3 +296,175 @@ void main()
 2
 */
 ```
+
+##### 11 - Write a menu driven program for addition, subtraction, multiplication, division and modulus of 2 integer numbers
+
+```C
+/*
+  Date of creation: 11 November 2017,
+  Title: Write a menu driven program for addition, subtraction, multiplication, division and modulus of 2 integer numbers
+  Coded by: Rishikesh Agrawani
+*/
+
+#include<stdio.h>
+
+void main() 
+{
+    int a = 10;    
+    int b = 5;
+    int c, choice;
+    
+    printf("Arithmetic operations\n");
+    printf("1. Addition\n");
+    printf("2. Subratcion\n");
+    printf("3. Multiplication\n");
+    printf("4. Division\n");
+    printf("5. Modulus\n");
+    printf("Please choose one option:\t");
+    scanf("%d", &choice);
+    
+    if(choice == 1) {
+        c = a + b;
+        printf("%d + %d = %d", a, b, c);
+    }
+    
+    if(choice == 2) {
+        c = a - b;
+        printf("%d * %d = %d", a, b, c);
+    }
+    
+    if(choice == 3) {
+        c = a * b;
+        printf("%d * %d = %d", a, b, c);
+    }
+    
+    if(choice == 4) {
+        c = a / b;
+        printf("%d / %d = %d", a, b, c);
+    }
+    
+    if(choice == 5) {
+        c = a % b;
+        printf("%d %% %d = %d", a, b, c);  /*  %% is used to print %  */
+    }
+}
+
+/* Output */
+/* 1st RUN
+Arithmetic operations
+1. Addition
+2. Subratcion
+3. Multiplication
+4. Division
+5. Modulus
+Please choose one option:    1
+10 + 5 = 15
+*/
+
+/* 2nd RUN
+Arithmetic operations
+1. Addition
+2. Subratcion
+3. Multiplication
+4. Division
+5. Modulus
+Please choose one option:    2
+10 * 5 = 5
+*/
+
+/* 3rd RUN
+Arithmetic operations
+1. Addition
+2. Subratcion
+3. Multiplication
+4. Division
+5. Modulus
+Please choose one option:    3
+10 * 5 = 50
+*/
+
+/* 4th RUN
+Arithmetic operations
+1. Addition
+2. Subratcion
+3. Multiplication
+4. Division
+5. Modulus
+Please choose one option:    4
+10 / 5 = 2
+*/
+
+/* 5th RUN
+Arithmetic operations
+1. Addition
+2. Subratcion
+3. Multiplication
+4. Division
+5. Modulus
+Please choose one option:    5
+10 % 5 = 0
+*/
+```
+
+##### 12 - Write a program to demonstrate the use of relational operators { <, <=, >, >=, ==, !=}
+
+```C
+/*
+  Date of creation: 11 November 2017,
+  Title: Write a program to demonstrate the use of relational operators,
+  Coded by: Rishikesh Agrawani
+*/
+
+// Include header file
+#include<stdio.h>
+
+// Definition of main() function
+void main() 
+{
+  int a = 10;
+  int b = 5;
+  int c = 6;
+  
+  /* < operator (less than) */
+  if( b < a ) {
+      printf("%d is less than %d.\n", b, a);
+  }
+  
+  /* <= operator (less than or equal than) */
+  if( b <= 5 ) {
+      printf("%d is less than or equal to %d\n", b, 5);
+  }
+
+  /* > operator (greater than) */
+  if( a > c ) {
+      printf("%d is greater than %d.\n", a, c);
+  }
+  
+  /* <= operator (greater than or equal to) */
+  if( b >= 4 ) {
+      printf("%d is greater than or equal to %d.\n", b, 4);
+  }
+  
+  /* == operator (equal to) */
+  if( c == 6 ) {
+      printf("%d is equal to %d.\n", c, 6);
+  }
+  
+  /* != operator (not equal to) */
+  if( a != 7) {
+      printf("%d is not equal to %d", a, 7);
+  } else {
+      printf("Enjoy C programming");
+  }
+  
+}
+
+/* Output:-
+5 is less than 10.
+5 is less than or equal to 5
+10 is greater than 6.
+5 is greater than or equal to 4.
+6 is equal to 6.
+10 is not equal to 7
+*/
+```
