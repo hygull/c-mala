@@ -626,7 +626,7 @@ I am Malinikesh & I know 10 is greater than 5
 */
 ```
 
-##### 17 - 
+##### 17 - Write a program for conditional if...else statement
 
 ```C
 /*
