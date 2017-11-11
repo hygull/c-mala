@@ -13,7 +13,7 @@ void main()
   int c;
   
   // Using post-increment operator
-  // first assign current value 10 then increment
+  // first assign current value 10 then increment by 1
   c = a++;   
   printf("%d, %d", a, c);
   printf("\n");
