@@ -767,7 +767,7 @@ void main()
 /*
   Date of creation: 12 November 2017,
   Title: Write a program to demonstrate the use of switch case statement,
-  Coded by: Rishikesh Agrawani
+  Coded by: Rishikesh Agrawani,
   Note: At a time, only 1 case will execute, if match found. Otherwise default section will execute
 */
 
@@ -813,7 +813,7 @@ Programming is really a nice thing in IT world.
 /*
   Date of creation: 12 November 2017,
   Title: Write a program to check whether the given number is even or odd,
-  Coded by: Rishikesh Agrawani
+  Coded by: Rishikesh Agrawani,
   Note: % is known as modulus operator/modular division operator.
         It gives the remainder after division, eg. 12%7 = 5, 9%2 = 1, 11%8 = 3.
         If you divide any number by 2 and remainder is 0 then that number is even.
@@ -862,5 +862,98 @@ void main()
 12 is even
 9 is odd
 80 is even
+*/
+```
+
+##### 22 - Write a program to find the greatest among 3 integer numbers
+
+```C
+/*
+  Date of creation: 12 November 2017,
+  Title: Write a program to find the greatest among 3 integer numbers,
+  Coded by: Rishikesh Agrawani
+*/
+
+#include<stdio.h>
+
+void main() 
+{
+  int a = 12, b = 9, c = 80;
+  
+  /* First method (very easy method to check but not efficient) */
+  if( (a>=b) && (a>=c)){
+      printf("1) %d is greatest\n", a);
+  }
+  
+  if( (b>=c) && (b>=a)){
+      printf("2) %d is greatest\n", b);
+  }
+  
+  if( (c>=b) && (c>=a)){
+      printf("3) %d is greatest\n", c);
+  }
+  
+  
+  /* Second method (efficient method) */
+  a = 45, b = 8, c = 3;
+  
+  if(a > b) {  // a>b
+      if(a > c) {  // a>b && a>c => a>b>c => a is greatest
+          printf("1) %d is greatest\n", a);
+      } else {  // a>b && c>a => c>a>b => c is greatest
+          printf("3) %d is greatest\n", c);
+      }
+  } else {  // b>a
+      if(b > c) {  // b>a && b>c  => b is greatest
+          printf("2) %d is greatest\n", b);
+      } else {  // b>a && c>b => c>b>a => c is greatest
+          printf("3) %d is greatest\n", c);
+      }
+  }
+  
+}
+
+/* Output:-
+3) 80 is greatest
+1) 45 is greatest
+*/
+```
+
+##### 29 - Write a program to swap two numbers using temporary variable
+
+```C
+/*
+  Date of creation: 12 November 2017,
+  Title: Write a program to swap two numbers using temporary variable,
+  Coded by: Rishikesh Agrawani,
+  Note: Swapping is the process of exchanging the values of 2 variables.
+*/
+
+#include<stdio.h>
+
+void main() 
+{
+  int a = 12;
+  int b = 9;
+  int temp;
+  
+  printf("Before swapping:-\n");
+  printf("a = %d, b = %d", a, b);
+  printf("\n");
+  
+  // Swapping process goes here
+  temp = a;    // temp=>12, a=>12, b=>9
+  a = b;       // temp=>12, a=>9, b=>9
+  b = temp;    // temp=>12, a=>9, b=>12
+  
+  printf("After swapping:-\n");
+  printf("a = %d, b = %d", a, b);  
+}
+
+/* Output:-
+Before swapping:-
+a = 12, b = 9
+After swapping:-
+a = 9, b = 12
 */
 ```
