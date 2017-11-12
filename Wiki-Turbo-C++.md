@@ -11,11 +11,14 @@
 
 // Include header file
 #include<stdio.h>
+#include<conio.h>
 
 // Definition of main() function
 void main() 
 {
-  printf("Hello DCA");
+  printf("Hello DCA");  // Printing hello message on screen
+
+  getch();  // getch() waits for you to press any key of keyboard
 }
 
 /* Output:-
@@ -34,6 +37,7 @@ Hello DCA
 
 // Include header file
 #include<stdio.h>
+#include<conio.h>
 
 // Definition of main() function
 void main() 
@@ -55,6 +59,8 @@ void main()
   printf("\n");   //Printing newline
   printf("%f\n", f);  //Printing float followed by newline
   printf("%lf", d);   // Printing double
+
+  getch();
 }
 
 /* Output:-
@@ -76,6 +82,7 @@ M, H
 */
 
 #include<stdio.h>
+#include<conio.h>
 
 void main() 
 {
@@ -87,6 +94,8 @@ void main()
   printf("a = %d \n", a);
   printf("b = %d \n", b);
   printf("c = %d \n", c);
+
+  getch();
 }
 
 /* Output:-
@@ -106,6 +115,7 @@ c = 12
 */
 
 #include<stdio.h>
+#include<conio.h>
 
 void main() 
 {
@@ -118,6 +128,8 @@ void main()
   printf("c = %c \n", c);
   printf("ch = %c \n", ch);
   printf("ch2 = %c", ch2);
+
+  getch();
 }
 
 /* Output:-
@@ -137,6 +149,7 @@ ch2 = M
 */
 
 #include<stdio.h>
+#include<conio.h>
 
 void main() 
 {
@@ -149,6 +162,8 @@ void main()
   printf("f = %f \n", f);
   printf("f2 = %f \n", f2);
   printf("f3 = %f", f3);
+
+  getch();
 }
 
 /* Output:-
@@ -168,6 +183,7 @@ f3 = 23.559999
 */
 
 #include<stdio.h>
+#include<conio.h>
 
 void main() 
 {
@@ -177,6 +193,8 @@ void main()
     c = a + b;
     
     printf("%d + %d = %d", a, b, c);
+
+    getch();
 }
 
 /* Output:-
@@ -194,6 +212,7 @@ void main()
 */
 
 #include<stdio.h>
+#include<conio.h>
 
 void main() 
 {
@@ -203,6 +222,8 @@ void main()
     c = a - b;
     
     printf("%d - %d = %d", a, b, c);
+
+    getch();
 }
 
 /* Output:-
@@ -220,6 +241,7 @@ void main()
 */
 
 #include<stdio.h>
+#include<conio.h>
 
 void main() 
 {
@@ -229,6 +251,8 @@ void main()
     c = a * b;
     
     printf("%d * %d = %d", a, b, c);
+
+    getch();
 }
 
 /* Output:-
@@ -246,6 +270,7 @@ void main()
 */
 
 #include<stdio.h>
+#include<conio.h>
 
 void main() 
 {
@@ -255,6 +280,8 @@ void main()
     c = a / b;
     
     printf("%d / %d = %d", a, b, c);
+
+    getch();
 }
 
 /* Output:-
@@ -272,6 +299,7 @@ void main()
 */
 
 #include<stdio.h>
+#include<conio.h>
 
 void main() 
 {
@@ -286,6 +314,8 @@ void main()
     printf("%d, %d, %d\n", r1, r2, r3);   /* \n is for printing newline */
     printf("%d: %d: %d\n", r1, r2, r3);
     printf("%d\n%d\n%d", r1, r2, r3);
+
+    getch();
 }
 
 /* Output:-
@@ -307,6 +337,7 @@ void main()
 */
 
 #include<stdio.h>
+#include<conio.h>
 
 void main() 
 {
@@ -347,6 +378,8 @@ void main()
         c = a % b;
         printf("%d %% %d = %d", a, b, c);  /*  %% is used to print %  */
     }
+
+    getch();
 }
 
 /* Output */
@@ -417,6 +450,7 @@ Please choose one option:    5
 
 // Include header file
 #include<stdio.h>
+#include<conio.h>
 
 // Definition of main() function
 void main() 
@@ -457,6 +491,7 @@ void main()
       printf("Enjoy C programming");
   }
   
+  getch();
 }
 
 /* Output:-
@@ -479,6 +514,7 @@ void main()
 */
 
 #include<stdio.h>
+#include<conio.h>
 
 void main() 
 {
@@ -506,6 +542,8 @@ void main()
   } else {
       printf("Nice");
   }
+
+  getch();
 }
 
 /* Output:-
@@ -525,6 +563,7 @@ void main()
 */
 
 #include<stdio.h>
+#include<conio.h>
 
 void main() 
 {
@@ -545,6 +584,8 @@ void main()
   
   c = ++b;
   printf("%d, %d", b, c);
+
+  getch();
 }
 
 /* Output:-
@@ -564,6 +605,7 @@ void main()
 */
 
 #include<stdio.h>
+#include<conio.h>
 
 void main() 
 {
@@ -584,6 +626,8 @@ void main()
   
   c = --b;
   printf("%d, %d", b, c);
+
+  getch();
 }
 
 /* Output:-
@@ -603,6 +647,7 @@ void main()
 */
 
 #include<stdio.h>
+#include<conio.h>
 
 void main() 
 {
@@ -618,6 +663,8 @@ void main()
   if( a == 10) {
       printf("%d is equal to 10", a);
   }
+
+  getch();
 }
 
 /* Output:-
@@ -636,6 +683,7 @@ I am Malinikesh & I know 10 is greater than 5
 */
 
 #include<stdio.h>
+#include<conio.h>
 
 void main() 
 {
@@ -655,6 +703,8 @@ void main()
   } else {
       printf("%d is equal to 10", b);
   }
+
+  getch();
 }
 
 /* Output:-
@@ -673,6 +723,7 @@ I am Malinikesh & I know 10 is greater than 5
 */
 
 #include<stdio.h>
+#include<conio.h>
 
 void main() 
 {
@@ -699,6 +750,8 @@ void main()
   } else {
           printf("%d is equal to 56\n", b);
   }
+
+  getch();
 }
 
 /* Output:-
@@ -717,6 +770,7 @@ void main()
 */
 
 #include<stdio.h>
+#include<conio.h>
 
 void main() 
 {
@@ -753,6 +807,7 @@ void main()
       }
   }
 
+  getch();
 }
 
 /* Output:-
