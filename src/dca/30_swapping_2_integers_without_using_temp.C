@@ -27,7 +27,7 @@ void main()
 
 /* Output:-
 Before swapping:-
-a = 12, b = 9
+a = 10, b = 5
 After swapping:-
-a = 9, b = 12
+a = 5, b = 10
 */
